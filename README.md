@@ -33,8 +33,8 @@ A modern e-commerce web application built with **React**, featuring dynamic prod
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/saurabhpund/react-ecommerce-app.git
-cd react-ecommerce-app
+git clone https://github.com/saurabhpund/bharatGo-assignment.git
+cd bharatGo-assignment
 ```
 2. **Install dependencies**
 ```
@@ -45,7 +45,7 @@ npm install
 ```
 npm run dev
 ```
-Open http://localhost:3000
+Open http://localhost:5173
  to view the app in your browser.
 
 **Project Structure**
