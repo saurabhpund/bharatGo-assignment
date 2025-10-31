@@ -1,6 +1,6 @@
 # React E-commerce App
 
-A modern e-commerce web application built with **React**, featuring dynamic product categories, user authentication, and shopping cart functionality. This project uses **TailwindCSS**, **React Router**, and **Axios** for API calls.
+A modern e-commerce web application built with **React**, featuring dynamic product categories, user authentication, and shopping cart functionality. This project uses **TailwindCSS**, **React Router**, **Axios** for API calls, and **Supabase** for Authentication.
 
 ---
 
@@ -9,7 +9,7 @@ A modern e-commerce web application built with **React**, featuring dynamic prod
 - **Dynamic Categories**: Fetches categories and products from [Fake Store API](https://api.escuelajs.co/api/v1/).  
 - **Product Listing**: Displays all products or products by selected category.  
 - **Search Functionality**: Filter products by name.  
-- **User Authentication**: Login and Sign Up (authentication handled externally; this project stores user info in localStorage).  
+- **User Authentication**: Login and Sign Up (authentication handled externally with Supabase; this project stores user info in localStorage).  
 - **Account Page**: Displays logged-in user information.  
 - **Shopping Cart**: Add/remove products and view cart summary.  
 - **Responsive Design**: Works on mobile, tablet, and desktop screens.  
@@ -33,7 +33,7 @@ A modern e-commerce web application built with **React**, featuring dynamic prod
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/react-ecommerce-app.git
+git clone https://github.com/saurabhpund/react-ecommerce-app.git
 cd react-ecommerce-app
 ```
 2. **Install dependencies**
